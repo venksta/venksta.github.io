@@ -184,7 +184,7 @@ p{
 
 /* Three Product Boxes */
 
-.product{
+.basecamp{
   display: inline-block;
   width: 160px;
   margin-left: -5px;
@@ -197,12 +197,48 @@ p{
   background: linear-gradient(white, #efefef);
 }
 
-.product img{
+.campfire{
+  display: inline-block;
+  width: 160px;
+  margin-left: -5px;
+  margin: 35px 10px;
+  border: 2px solid #e8e8e8;
+  border-radius: 5px;
+  box-shadow: 0 0 8px #efefef;
+  padding: 20px 15px 20px;
+  text-decoration: none;
+  background: linear-gradient(white, #efefef);
+}
+
+.highrise{
+  display: inline-block;
+  width: 160px;
+  margin-left: -5px;
+  margin: 35px 10px;
+  border: 2px solid #e8e8e8;
+  border-radius: 5px;
+  box-shadow: 0 0 8px #efefef;
+  padding: 20px 15px 20px;
+  text-decoration: none;
+  background: linear-gradient(white, #efefef);
+
+}
+
+.basecamp img{
 
   margin-top: 15px;
   width: 100px;
 }
 
+.campfire img{
+  margin-top: 15px;
+  width: 100px;
+}
+
+.highrise img{
+  margin-top: 15px;
+  width: 100px;
+}
 
 div.asterik{
 width: 100%;
@@ -213,7 +249,7 @@ padding-top: 0;
 
 /* Added elements for the hovering effects in Unit 2 */
 
-.basecamp{
+.alt-basecamp{
   margin: 10px;
   display: none;
   width: 830px;
@@ -223,7 +259,7 @@ padding-top: 0;
   position: absolute;
 }
 
-.highrise{
+.alt-highrise{
   margin: 10px;
   display: none;
   width: 830px;
@@ -233,7 +269,7 @@ padding-top: 0;
   position: absolute;
 }
 
-.campfire{
+.alt-campfire{
   margin: 10px;
   display: none;
   width: 830px;

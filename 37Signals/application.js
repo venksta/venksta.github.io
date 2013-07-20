@@ -1,44 +1,44 @@
 $(document).ready(function(){
 	
-		$('.product').on('mouseenter', function(){
+		$('.basecamp').on('mouseenter', function(){
 			event.preventDefault();
 			$('.headliner').hide();
 			$(this).find('.leftarrow').show();
-			$('.basecamp').show();
+			$('.alt-basecamp').show();
 	});	
 
-		$('.product').on('mouseleave', function(){
+		$('.basecamp').on('mouseleave', function(){
 			event.preventDefault();
 			$(this).find('.leftarrow').hide();
-			$('.basecamp').hide();
+			$('.alt-basecamp').hide();
 			$('.headliner').show();
 	});	
 
-		$('.product').on('mouseenter', function(){
+		$('.highrise').on('mouseenter', function(){
 			event.preventDefault();
 			$('.headliner').hide();
 			$(this).find('.leftarrow').show();
-			$('.highrise').show();
+			$('.alt-highrise').show();
 	});	
 	
-		$('.product').on('mouseleave', function(){
+		$('.highrise').on('mouseleave', function(){
 			event.preventDefault();
 			$(this).find('.leftarrow').hide();
-			$('.highrise').hide();
+			$('.alt-highrise').hide();
 			$('.headliner').show();
 	});	
 
-		$('.product').on('mouseenter', function(){
+		$('.campfire').on('mouseenter', function(){
 			event.preventDefault();
 			$('.headliner').hide();
 			$(this).find('.rightarrow').show();
-			$('.campfire').show();
+			$('.alt-campfire').show();
 	});	
 	
-		$('.product').on('mouseleave', function(){
+		$('.campfire').on('mouseleave', function(){
 			event.preventDefault();
 			$(this).find('.rightarrow').hide();
-			$('.campfire').hide();
+			$('.alt-campfire').hide();
 			$('.headliner').show();
 	});	
 
