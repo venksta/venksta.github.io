@@ -137,6 +137,7 @@ div.headliner{
   margin: 0px auto;
   text-align: center;
   padding-top: 30px;
+  display: block;
 }
 
 /* fonts */
