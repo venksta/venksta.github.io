@@ -5,42 +5,42 @@ $(document).ready(function(){
 		$(".basecamp").on("mouseenter", function(){
 			event.preventDefault();
 			$(".headliner").hide();
-			$(this).find(".alt-basecamp").show();
-			$(".leftarrow").show();
+			$(this).find(".leftarrow").show();
+			$(".alt-basecamp").show();
 	});	
 
 		$(".basecamp").on("mouseleave", function(){
 			event.preventDefault();
-			$(this).find(".alt-basecamp").hide();
-			$(".leftarrow").hide();
+			$(this).find(".leftarrow").hide();
+			$(".alt-basecamp").hide();
 			$(".headliner").show();
 	});	
 
 		$(".highrise").on("mouseenter", function(){
 			event.preventDefault();
 			$(".headliner").hide();
-			$(this).find(".alt-highrise").show();
-			$(".leftarrow").show();
+			$(this).find(".leftarrow").show();
+			$(".alt-highrise").show();
 	});	
 	
 		$(".highrise").on("mouseleave", function(){
 			event.preventDefault();
-			$(this).find(".alt-highrise").hide();
-			$(".leftarrow").hide();
+			$(this).find(".leftarrow").hide();
+			$(".alt-highrise").hide();
 			$(".headliner").show();
 	});	
 
 		$(".campfire").on("mouseenter", function(){
 			event.preventDefault();
 			$(".headliner").hide();
-			$(this).find(".alt-campfire").show();
-			$(".rightarrow").show();
+			$(this).find(".rightarrow").show();
+			$(".alt-campfire").show();
 	});	
 	
 		$(".campfire").on("mouseleave", function(){
 			event.preventDefault();
-			$(this).find(".alt-campfire").hide();
-			$(".rightarrow").hide();
+			$(this).find(".rightarrow").hide();
+			$(".alt-campfire").hide();
 			$(".headliner").show();
 	});	
 

@@ -250,22 +250,31 @@ padding-top: 0;
 /* Added elements for the hovering effects in Unit 2 */
 
 .alt-basecamp{
+  margin: 10px;
   display: none;
   width: 830px;
+  height: 200px;
+  top: 70px;
   background-color: white;
   position: absolute;
 }
 
 .alt-highrise{
+  margin: 10px;
   display: none;
   width: 830px;
+  height: 200px;
+  top: 70px;
   background-color: white;
   position: absolute;
 }
 
 .alt-campfire{
+  margin: 10px;
   display: none;
   width: 830px;
+  height: 200px;
+  top: 70px;
   background-color: white;
   position: absolute;
 
@@ -273,8 +282,11 @@ padding-top: 0;
 
 .alt-headliner{
   font-size: 46px;
+  font-weight: 500;
   font-style: normal;
   margin: 10px 0 15px 0;
+  letter-spacing: -1px;
+  color: #232323;
   vertical-align: baseline;
 }
 
@@ -282,6 +294,9 @@ padding-top: 0;
   font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
   font-size: 15px;
   font-style: normal;
+  margin-top: 20px;
+  font-weight: 550;
+  color: #232323;
   vertical-align: baseline;
 }
 
@@ -294,10 +309,14 @@ padding-top: 0;
 .leftarrow {
   position: absolute;
   display: none;
+  left: 140px;
+  top: -30px;
 }
 
 .rightarrow {
   position: absolute;
   display: none;
+  left: -12px;
+  top: -30px;
 }
 
