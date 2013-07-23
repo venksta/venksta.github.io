@@ -78,7 +78,7 @@ position: relative;
 
 /* Main area of the page */
 
-#main-area{
+.main-area{
 font-family: Palatino;
 font-weight: bold;
 line-height: 58px;
@@ -87,6 +87,11 @@ text-align: center;
 width: 840px;
 clear: both;
 margin: auto;
+}
+
+.main-area a, a:hover, a:visited {
+   color: steelblue;
+	text-decoration: underline;
 }
 
 /* Navbar */
@@ -133,7 +138,7 @@ a.signin:hover{
 
 /* 37 Signals in a box */
 
-div.top-page{
+.top-page{
   width: 100%;
   margin: 0px auto;
   padding-top: 50px;
@@ -141,7 +146,7 @@ div.top-page{
 }
 
 /* Headliner */
-div.headliner{
+.headliner{
   width: 1000px;
   margin: 0px auto;
   text-align: center;
@@ -313,14 +318,14 @@ padding-top: 0;
 .leftarrow {
   position: absolute;
   display: none;
-  left: 140px;
+  right: -20px;
   top: -30px;
 }
 
 .rightarrow {
   position: absolute;
   display: none;
-  left: -12px;
-  top: -30px;
+  left: -20px;
+  top: -25px;
 }
 
