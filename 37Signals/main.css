@@ -71,6 +71,11 @@ img{
   border: 0;
 }
 
+#whole{
+min-height: 100%;
+position: relative;
+}
+
 /* Main area of the page */
 
 #main-area{
