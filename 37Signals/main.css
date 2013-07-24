@@ -136,12 +136,10 @@ a.signin:hover{
   color: #336699;
 }
 
-/* 37 Signals in a box */
+/* 37 Signals logo */
 
 .top-page{
-  width: 100%;
-  margin: 0px auto;
-  padding-top: 50px;
+  margin-top: 35px;
   
 }
 
@@ -331,3 +329,12 @@ padding-top: 0;
   top: -25px;
 }
 
+.products{
+	margin: auto;
+	font-family: "Lucida Grande", Lucida, Tahoma;
+	line-height: 15px;
+}
+
+.products a, a:hover, a:visited {
+	text-decoration: none;
+}
