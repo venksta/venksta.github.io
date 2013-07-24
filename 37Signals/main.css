@@ -322,14 +322,10 @@ padding-top: 0;
 .leftarrow {
   position: absolute;
   display: none;
-  left: 140px;
-  top: -100px;
 }
 
 .rightarrow {
   position: absolute;
   display: none;
-  left: -12px;
-  top: -100px;
 }
 
