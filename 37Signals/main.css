@@ -81,9 +81,9 @@ img{
   text-align: center;
 }
 
-main-area:hover{
-display: none;
-text-decoration: none;
+.main-area a:hover, a:visited{
+color:streetblue;
+text-decoration: underline;
 }
 
 /* Navbar */
@@ -203,6 +203,10 @@ div.basecamp{
   background: linear-gradient(white, #efefef);
 }
 
+.basecamp a, a:hover, a:visited {
+  text-decoration: none;
+}
+
 div.campfire{
   display: inline-block;
   width: 160px;
@@ -214,6 +218,10 @@ div.campfire{
   padding: 20px 15px 20px;
   text-decoration: none;
   background: linear-gradient(white, #efefef);
+}
+
+.campfire a, a:hover, a:visited {
+  text-decoration: none;
 }
 
 div.highrise{
@@ -228,6 +236,10 @@ div.highrise{
   text-decoration: none;
   background: linear-gradient(white, #efefef);
 
+}
+
+.highrise a, a:hover, a:visited {
+  text-decoration: none;
 }
 
 .basecamp img{
@@ -311,13 +323,13 @@ padding-top: 0;
   position: absolute;
   display: none;
   left: 140px;
-  top: -30px;
+  top: -100px;
 }
 
 .rightarrow {
   position: absolute;
   display: none;
   left: -12px;
-  top: -30px;
+  top: -100px;
 }
 
