@@ -74,11 +74,16 @@ img{
 
 /* Main area of the page */
 
-#main-area{
+.main-area{
   padding-bottom:10px; 
   margin:0 auto 30px;
   width: 830px;
   text-align: center;
+}
+
+main-area:hover{
+display: none;
+text-decoration: none;
 }
 
 /* Navbar */
@@ -202,7 +207,7 @@ div.campfire{
   display: inline-block;
   width: 160px;
   margin-left: -5px;
-  margin: 35px 10px;
+  margin: 40px 10px;
   border: 2px solid #e8e8e8;
   border-radius: 5px;
   box-shadow: 0 0 8px #efefef;
