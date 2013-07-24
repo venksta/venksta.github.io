@@ -268,33 +268,27 @@ padding-top: 0;
 /* Added elements for the hovering effects in Unit 2 */
 
 .alt-basecamp{
-  margin-left: auto;
-  margin-right:auto;
+  width: 1000px;
+  margin: 0px auto;
   text-align: center;
-  margin: 10px;
-  display: none;
-  width: 830px;
-  background-color: white;
+  padding-top: 30px;
+  display: block;
 }
 
 .alt-highrise{
-  margin-left:auto;
-  margin-right:auto;
+  width: 1000px;
+  margin: 0px auto;
   text-align: center;
-  margin: 10px;
-  display: none;
-  width: 830px;
-  background-color: white;
+  padding-top: 30px;
+  display: block;
 }
 
 .alt-campfire{
-  margin-left: auto;
-  margin-right:auto;
+  width: 1000px;
+  margin: 0px auto;
   text-align: center;
-  margin: 10px;
-  display: none;
-  width: 830px;
-  background-color: white;
+  padding-top: 30px;
+  display: block;
 
 }
 
