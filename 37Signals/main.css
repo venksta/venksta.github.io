@@ -71,10 +71,6 @@ img{
   border: 0;
 }
 
-#whole{
-min-height: 100%;
-position: relative;
-}
 
 /* Main area of the page */
 
@@ -189,7 +185,7 @@ p{
 
 /* Three Product Boxes */
 
-.basecamp{
+div.basecamp{
   display: inline-block;
   width: 160px;
   margin-left: -5px;
@@ -202,7 +198,7 @@ p{
   background: linear-gradient(white, #efefef);
 }
 
-.campfire{
+div.campfire{
   display: inline-block;
   width: 160px;
   margin-left: -5px;
@@ -215,7 +211,7 @@ p{
   background: linear-gradient(white, #efefef);
 }
 
-.highrise{
+div.highrise{
   display: inline-block;
   width: 160px;
   margin-left: -5px;
