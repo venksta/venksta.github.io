@@ -317,14 +317,12 @@ padding-top: 0;
 }
 
 .leftarrow {
-  position: absolute;
+  position: relative;
   display: none;
-  
 }
 
 .rightarrow {
-  position: absolute;
+  position: relative;
   display: none;
-  
 }
 
