@@ -1,47 +1,40 @@
 $(document).ready(function(){
 
+// basecamp rollover
 
-	
-		$(".basecamp").on("mouseenter", function(){
-			event.preventDefault();
-			$(".headliner").hide();
-			$(this).find(".leftarrow").show();
-			$(".alt-basecamp").show();
+	$(".bc").mouseenter(function(){
+		$(".headline").hide();
+		$(".headline-bc").show();
+		$(".bc .arrow").show();
+ 	});
+	$(".bc").mouseleave(function(){
+		$(".headline").show();
+		$(".headline-bc").hide();
+		$(".bc .arrow").hide();
 	});	
+// highrise button rollover
 
-		$(".basecamp").on("mouseleave", function(){
-			event.preventDefault();
-			$(this).find(".leftarrow").hide();
-			$(".alt-basecamp").hide();
-			$(".headliner").show();
-	});	
+	$(".hr").mouseenter(function(){
+		$(".headline").hide();
+		$(".headline-hr").show();
+		$(".hr .arrow").show();
+ 	});
+ 	$(".hr").mouseleave(function(){
+		$(".headline").show();
+		$(".headline-hr").hide();
+		$(".hr .arrow").hide();
+ 	});	
 
-		$(".highrise").on("mouseenter", function(){
-			event.preventDefault();
-			$(".headliner").hide();
-			$(this).find(".leftarrow").show();
-			$(".alt-highrise").show();
-	});	
-	
-		$(".highrise").on("mouseleave", function(){
-			event.preventDefault();
-			$(this).find(".leftarrow").hide();
-			$(".alt-highrise").hide();
-			$(".headliner").show();
-	});	
+// campfire button rollover
 
-		$(".campfire").on("mouseenter", function(){
-			event.preventDefault();
-			$(".headliner").hide();
-			$(this).find(".rightarrow").show();
-			$(".alt-campfire").show();
-	});	
-	
-		$(".campfire").on("mouseleave", function(){
-			event.preventDefault();
-			$(this).find(".rightarrow").hide();
-			$(".alt-campfire").hide();
-			$(".headliner").show();
-	});	
-
+	$(".cf").mouseenter(function(){
+		$(".headline").hide();
+		$(".headline-cf").show();
+		$(".cf .arrow").show();
+ 	});
+ 	$(".cf").mouseleave(function(){
+		$(".headline").show();
+		$(".headline-cf").hide();
+		$(".cf .arrow").hide();
+ 	});		
 });

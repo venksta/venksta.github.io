@@ -16,173 +16,142 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-  display: block;
+	display: block;
 }
 body {
-  line-height: 1;
+	font-family: "Lucida Grande", Lucida, Tahoma;
 }
 ol, ul {
-  list-style: none;
+	list-style: none;
 }
 blockquote, q {
-  quotes: none;
+	quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
-  content: none;
+	content: '';
+	content: none;
 }
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*End browser reset*/
+
+.navbar {
+	font-size: 12px;
+    margin: 28px 55px;
+}
+
+.daily-message {
+	display: inline;
+	color: grey;
+}
+
+nav {
+	float: right;
+	display: inline-block;
+}
+
+nav em{
+	color: #18AFE0;
+}
+<<<<<<< HEAD
+
+=======
+nav a {
+	color: #369;
+	text-decoration: none;
+	padding: 9px;
+}
+>>>>>>> 296fd046b6aecf5904249962d32ca04a258e288a
+
+nav a:hover, focus {
+	color: steelblue;
+}
+
+.welcome {
+	font-family: Palatino;
+	font-weight: bold;
+	line-height: 58px;
+	margin: 50px 140px;
+	text-align: center;
+	width: 840px;
+	clear: both;
+	margin: auto;
+}
+
+.welcome a, a:hover, a:visited {
+	color: steelblue;
+	text-decoration: underline;
+}
+.logo {margin-top: 35px;}
+
+.headline-bc {
+	display: none;
+}
+.headline-hr {
+	display: none;
+}
+.headline-cf {
+	display: none;
+}
+
+.headline-bc h1 {
+	font-size: 40px;
+	line-height: 45px;
+	letter-spacing: -1px;
+}
+.headline-hr h1 {
+	font-size: 40px;
+	line-height: 45px;
+	letter-spacing: -1px;
+}
+.headline-cf h1 {
+	font-size: 40px;
+	line-height: 45px;
+	letter-spacing: -1px;
+}
+
+.headline-bc h3 {
+	font: normal 16px/24px "Lucida Grande", Lucida, Tahoma;
+	padding: 18px 0;
+}
+.headline-hr h3 {
+	font: normal 16px/24px "Lucida Grande", Lucida, Tahoma;
+	padding: 18px 0;
+}
+.headline-cf h3 {
+	font: normal 16px/24px "Lucida Grande", Lucida, Tahoma;
+	padding: 18px 0;
 }
 
 
-/* Website Global */
 
-body{
-  margin: 0 auto 30px;
-  width: auto;
-  padding: 0;
-  text-align: center;
-  background-color: #fff;
-  color: #222;
+h1 {
+	font-size: 50px;
+	letter-spacing: -1px;
 }
 
-a{
-  color: #336699:
+h3 {font-size: 18px;}
+
+.products {
+	margin: auto;
+	font-family: "Lucida Grande", Lucida, Tahoma;
+	line-height: 15px;
 }
 
-a:hover{
-  color:#6699cc;
-}
-
-img{
-  border: 0;
-}
-
-
-/* Main area of the page */
-
-#main-area{
-  padding-bottom:10px; 
-  margin:0 auto 30px;
-  width: 830px;
-  text-align: center;
-}
-
-/* Navbar */
-
-.navbar{
-  text-align: right;
-  padding-top: 28px;
-  margin: 0px;
-  width: 100%;
-}
-
-.navbar ul{
-  padding: 0;
-  width: 100%  
-}
-
-
-.navbar ul li.date{
-  float: left;
-  padding: 4px 0px 0 40px;
-  color: #999;
-}
-
-.navbar li{
-  display: inline;
-  list-style-type: none;
-  padding: 0 10px 0;
-  font-size: 12px;
-  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-}
-
-li a{
-  text-decoration: none;
-}
-
-a.signin{
-  color: #18afe0;
-  padding-right: 10px;
-}
-
-a.signin:hover{
-  color: #336699;
-}
-
-/* 37 Signals in a box */
-
-div.top-page{
-  width: 100%;
-  margin: 0px auto;
-  padding-top: 50px;
-  
-}
-
-/* Headliner */
-div.headliner{
-  width: 1000px;
-  margin: 0px auto;
-  text-align: center;
-  padding-top: 30px;
-  display: block;
-}
-
-/* fonts */
-
-body, p, h1, h2, h3, h4, h5 {
-  font-family: 'CrimsonSemibold', 'Times New Roman', Georgia, serif;
-  font-style: normal;
-  text-align: center;
-}
-
-h1{
-font-style: normal;
-font-weight: 600;
-padding-top: 5px;
-font-size: 48px;
-}
-
-h5{
-  font-size:20px;
-  padding-top: 30px;
-}
-
-
-h3 a{
- font-size:20px;
- font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
- text-decoration: underline;
- color: #369;
- font-weight: bold;
-}
-
-h4{
-  margin: 5px 0 10px;
-  font-size: 19px;
-  color: #cc0000;
-  font-size:16px;
-  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-}
-
-p{
-  font-size:16px;
-  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-}
-
+<<<<<<< HEAD
 /* Three Product Boxes */
 
 div.basecamp{
@@ -239,80 +208,79 @@ div.highrise{
 .highrise img{
   margin-top: 15px;
   width: 100px;
+=======
+.products a, a:hover, a:visited {
+	text-decoration: none;
+}
+	
+.button {
+	position: relative;
+	display: inline-block;
+	border-radius: 6px;
+	width: 160px;
+	margin: 8px 17px; 
+	padding: 22px 10px;
+	border: 1px solid #e8e8e8;
+	box-shadow: 1px 1px 5px 1px #f8f8f8;
+    background: #ffffff;
+    background: linear-gradient(#ffffff, #efefef);
+    text-decoration: none;
+>>>>>>> 296fd046b6aecf5904249962d32ca04a258e288a
+}
+.arrow{
+	display: none;
 }
 
-div.asterik{
-width: 100%;
-margin: 0px auto;
-padding-top: 0;
-}
-
-
-/* Added elements for the hovering effects in Unit 2 */
-
-.alt-basecamp{
-  margin: 10px;
-  display: none;
-  width: 830px;
-  height: 200px;
-  top: 70px;
-  background-color: white;
-}
-
-.alt-highrise{
-  margin: 10px;
-  display: none;
-  width: 830px;
-  height: 200px;
-  top: 70px;
-  background-color: white;
-}
-
-.alt-campfire{
-  margin: 10px;
-  display: none;
-  width: 830px;
-  height: 200px;
-  top: 70px;
-  background-color: white;
+.left{
+	position: absolute;
+	right: -20px;
+	top: -25px;
 
 }
 
-.alt-headliner{
-  font-size: 46px;
-  font-weight: 500;
-  font-style: normal;
-  letter-spacing: -1px;
-  color: #232323;
+.right{
+	position: absolute;
+	left: -20px;
+	top: -25px;
+
 }
 
-.description{
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
-  font-size: 15px;
-  font-style: normal;
-  margin-top: 20px;
-  font-weight: 550;
-  color: #232323;
-  vertical-align: baseline;
+.button span:nth-child(3){    
+    display: inline-block;
+    font-size: 21px;
+	font-weight: bold;
+	text-decoration: underline;
+	color: steelblue;
+	padding: 12px 0 10px 0;
 }
 
-.alt-product{
-  color: #336699;
-  text-decoration: underline;
-  font-weight: bold;
+.button span:nth-child(4){    
+	color: #9999A0;
+	font-size: 11px;
+	position: relative;
+	bottom: 8px;
+	letter-spacing: -10px;
+	text-decoration: none;
 }
 
-.leftarrow {
-  position: absolute;
-  display: none;
-  left: 140px;
-  top: -30px;
+.button span:nth-child(5){    
+    color: firebrick;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 7px 4px 16px 4px;
+	display: block;
 }
 
-.rightarrow {
-  position: absolute;
-  display: none;
-  left: -12px;
-  top: -30px;
+.button span:nth-child(6){    
+    text-decoration:none;
+    font-weight: normal;
+   	color: black;
+	font-size: 14px;
+	line-height: 20px;	
 }
 
+.separator{
+	font: normal 25px/90px Lucida;
+	color: #ccc;
+	word-spacing: 10px
+}
