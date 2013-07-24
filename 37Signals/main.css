@@ -315,16 +315,18 @@ padding-top: 0;
   font-weight: bold;
 }
 
+
+.arrow{
+	display: none;
+}
 .leftarrow {
   position: absolute;
-  display: none;
   right: -20px;
   top: -30px;
 }
 
 .rightarrow {
   position: absolute;
-  display: none;
   left: -20px;
   top: -25px;
 }
