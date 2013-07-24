@@ -317,12 +317,16 @@ padding-top: 0;
 }
 
 .leftarrow {
-  position: absolute;
+  position: relative;
   display: none;
+  top: 80px;
+  left:-20px;
 }
 
 .rightarrow {
-  position: absolute;
+  position: relative;
   display: none;
+  top: 80px;
+  right: -20px;
 }
 
