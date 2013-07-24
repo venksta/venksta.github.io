@@ -268,6 +268,9 @@ padding-top: 0;
 /* Added elements for the hovering effects in Unit 2 */
 
 .alt-basecamp{
+  margin-left: auto;
+  margin-right:auto;
+  text-align: center;
   margin: 10px;
   display: none;
   width: 830px;
@@ -275,6 +278,9 @@ padding-top: 0;
 }
 
 .alt-highrise{
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
   margin: 10px;
   display: none;
   width: 830px;
@@ -282,6 +288,9 @@ padding-top: 0;
 }
 
 .alt-campfire{
+  margin-left: auto;
+  margin-right:auto;
+  text-align: center;
   margin: 10px;
   display: none;
   width: 830px;
@@ -290,7 +299,6 @@ padding-top: 0;
 }
 
 .alt-headliner{
-  text-align: center;
   font-size: 46px;
   font-weight: 500;
   font-style: normal;
