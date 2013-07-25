@@ -319,14 +319,14 @@ padding-top: 0;
 .leftarrow {
   position: absolute;
   display: none;
-  top: -600px;
-  left: -400px;
+  height: 69;
+  width: 69;
 }
 
 .rightarrow {
   position: absolute;
   display: none;
-  top: -600px;
-  right: -400px;
+  height: 69;
+  width: 69;
 }
 
