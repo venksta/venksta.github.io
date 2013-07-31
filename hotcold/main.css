@@ -5,7 +5,7 @@ html {
 
 body {
   font-family: sans-serif;
-  background-image: url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/retina_wood.png);
+  background-image: url(http://gembez.com/wp-content/uploads/2013/05/Background-Designs-Wallpaper-HD.jpg);
 }
 
 h1{
@@ -16,9 +16,9 @@ h1{
   display: block;
   font-size: 22px;
   text-align: center;
-  line-height: $height;
+  line-height: 4px;
   text-decoration: none;
-  color: $txt_color;
+  color: white;
   background-color: $bg;
   border-radius: 4px;
   width: 124px; 
