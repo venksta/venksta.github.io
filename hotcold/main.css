@@ -53,21 +53,8 @@ table {
 body {
   font-family: sans-serif;
 
-h1{
+h1 {
   text-align: center;
   color: white;
 }
 
-.button {
-  display: block;
-  font-size: 22px;
-  text-align: center;
-  line-height: 4px;
-  text-decoration: none;
-  color: white;
-  background-color: $bg;
-  border-radius: 4px;
-  width: 124px; 
-  height:44px;
-  text-shadow(0 -1px -1px darken($bg, 7%));
-}
