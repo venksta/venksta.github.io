@@ -27,6 +27,10 @@ body {
   background-image: url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/retina_wood.png);
 }
 
+div h1{
+  text-align: center;
+}
+
 .button {
   display: block;
   font-size: $font_size;
