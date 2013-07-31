@@ -52,9 +52,9 @@ table {
 
 body {
   font-family: sans-serif;
+}
 
 h1 {
   text-align: center;
-  color: white;
+  font-size: 70px;
 }
-
