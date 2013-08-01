@@ -88,12 +88,11 @@ if "correct" red background-color: #F60018;
 
 /* buttons */
 
-#button{
+input{
 	position: relative;
     color: rgba(255,255,255,1);
     text-decoration: none;
     background-color: rgba(219,87,5,1);
-    font-family: 'Yanone Kaffeesatz';
     font-weight: 700;
     font-size: 3em;
     display: block;
