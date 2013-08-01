@@ -63,10 +63,12 @@ if "correct" red background-color: #F60018;
 
 /* Main Area of the Page with it's own background */
 
+body{
+	background-image: url(background-image: url(http://subtlepatterns.com/patterns/ricepaper.png);
+}
 
 #main-area{
-  background-image: url(background-image: url(http://subtlepatterns.com/patterns/ricepaper.png);
-  height: 100%;
+  text-align: center;
 }
 
 
