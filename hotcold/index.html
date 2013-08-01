@@ -1,33 +1,24 @@
-<html><head>
-
-	<title> Hot or Cold </title>
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Hot or Cold Game </title>
 	<link rel="stylesheet" type="text/css" href="main.css">
-	<script src="jQuerycode.js"></script><style type="text/css"></style>
 	<script src="application.js"></script>
-
-
 </head>
-
-<body style="">
-
-<div id="main" style="background-color: rgb(204, 64, 55);">
-	<h1>Hot or Cold</h1>
-	<div id="game">
-		<p>Place Your guess (1-100)</p>
-		<p id="message">You got the answer!</p>
+<body>
+	<div class="main-area"> 
+		<h1> Hot or Cold?</h1>
+		<h3> A random number between 1 and 100 is selected by me, your almighty! Can you guess the number that I'm thinking of right now? Dare you to try!</h3>
+	<div class="gamebox">
+		<h2 class="comment"> Pick a number between 1 and 100</h2>
+		
 		<input id="choice" type="text">
-		<input type="button" id="submit" name="submit" value="submit">
-		<input type="button" id="rand_num" name="new" value="new">
+		<input class="button" id="Guess" name="Guess" value="Guess">
+		<input class="button" id="Random" name="Reset" value="Reset">
 	</div>
 </div>
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/css"></script>
+</body>
+</html>
 
-
-
-
-
-
-
-
-
-</body></html>

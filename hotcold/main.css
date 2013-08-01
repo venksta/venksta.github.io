@@ -16,78 +16,107 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-  display: block;
+	display: block;
 }
 body {
-  line-height: 1;
-
+	line-height: 1;
 }
 ol, ul {
-  list-style: none;
+	list-style: none;
 }
 blockquote, q {
-  quotes: none;
+	quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
-  content: none;
+	content: '';
+	content: none;
 }
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-/* CSS Reset ends */
+/* End of CSS Reset
+
+Venk's Work Starts Here */
+
+/* Background Color Plans:
+
+if "colder" darker blue background-color: #123EAB;
+if "cold" blue background-color: #3F92D2
+if "warmer" orange background - color: ;
+if "correct" red background-color: #F60018;
+
+*/
 
 
-html, body{
+/* Main Area of the Page with it's own background */
+
+
+#main-area{
+  background-image: url(background-image: url(http://subtlepatterns.com/patterns/ricepaper.png);
   height: 100%;
 }
-#main{
-  background-color: white;
-  height: 100%;
-  margin-top: -13px;
 
-  
-}
 
-h1{
-  font-size: 48px;
-  font-family:"Times New Roman", Georgia, serif;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 10px;
-}
+/* game area where the colors will be changing */
 
-#game{
+#gamebox{
   margin: 0 auto;
-  margin-top: 180px;
+  margin-top: 360px;
   text-align: center;
-  width: 200px;
-  height: 200px;
-  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
   background: linear-gradient(#FFFFFF, #EFECC9);
 }
 
-p{
-  font-size: 32px;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 30px;
+
+/* buttons */
+
+.button{
+	position: relative;
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+    background-color: rgba(219,87,5,1);
+    font-family: 'Yanone Kaffeesatz';
+    font-weight: 700;
+    font-size: 3em;
+    display: block;
+    padding: 4px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    margin: 100px auto;
+	width: 160px;
+	text-align: center;
+	
+	-webkit-transition: all .1s ease;
+	-moz-transition: all .1s ease;
+	-ms-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	transition: all .1s ease;
 }
 
-#message{
-  font-size: 16px;
-  margin-bottom: 20px;
+/* The message based on the user input will change from Javascript */
+
+#comment{
+	font-size: 32px;
+	margin-bottom: 40px;
+
 }
+
