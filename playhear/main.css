@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* Navbar */
+#header {
+	background-color: #09F;
+    text-align: right;
+	padding-top: 85px;
+	padding-bottom: 10px;
+  	margin: 0px;
+  	width: 100%;
+	padding-right: 20px;
+	box-shadow:#333;
+	position:fixed;
+	top:0;
+	left:0;
+}
+
+
+#header ul{
+	width: 300px;
+	float: right;
+}
+#header li{
+  display: inline;
+  list-style-type: none;
+  padding: 0 20px 0;
+}
+
+
+#logo{
+  float: left;
+
+}
+
+
+
+
+
+#rotator {
+	background-color: #0C3;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding: 0px;
+	height: 490px;
+	margin-top: 124px;
+}
+#carousel-example-generic {
+	height: 490px;
+	margin-top: 100px;
+}
+.no_margin {
+	margin-top: -18px;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+#playbox {
+	height: 100px;
+	width: 100%;
+	background-color: #096;
+}
+
+h1 {
+	float: left;
+	width: 50%;
+	clear: both;
+}
+
+
+
+
+.navbar li{
+  display: inline;
+  list-style-type: none;
+  padding: 0 10px 0;
+  font-size: 12px;
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
