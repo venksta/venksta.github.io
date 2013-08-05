@@ -22,19 +22,18 @@
 	width: 300px;
 	float: right;
 }
+
+#header ul li.logo{
+float: left;
+
+}
+
+
 #header li{
   display: inline;
   list-style-type: none;
   padding: 0 20px 0;
 }
-
-
-#logo{
-  float: left;
-
-}
-
-
 
 
 
