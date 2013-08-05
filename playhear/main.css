@@ -15,6 +15,7 @@
 	position:fixed;
 	top:0;
 	left:0;
+	z-index: 300;
 }
 
 
@@ -26,7 +27,7 @@
 
 #header ul li.logo{
 float: left;
-
+clear: none;
 }
 
 
