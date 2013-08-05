@@ -21,6 +21,7 @@
 #header ul{
 	width: 50%;
 	float: right;
+	clear: none;
 }
 
 #header ul li.logo{
