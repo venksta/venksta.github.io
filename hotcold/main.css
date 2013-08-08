@@ -1,8 +1,8 @@
 
 /* Bootstrapping */
 
-@import "/style/bootstrap.css";
-@import "/style/bootstrap.min.css";
+@import "../style/bootstrap.css";
+@import "../style/bootstrap.min.css";
 
 /* Background Color Plans:
 
