@@ -15,7 +15,7 @@ if "correct" red background-color: #F60018;
 }
 
 #main-area{
-  display: center;
+  text-align: center;
 }
 
 
@@ -24,7 +24,7 @@ if "correct" red background-color: #F60018;
 #gamebox{
   margin: 0 auto;
   margin-top: 360px;
-  display: center;
+  text-align: center;
   float: inline-block;
   width: 400px;
   height: 400px;
