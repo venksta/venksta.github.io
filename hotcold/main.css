@@ -35,6 +35,13 @@ if "correct" red background-color: #F60018;
 
 /* buttons */
 
+.btn {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+
+}
+
 /* The message based on the user input will change from Javascript */
 
 #comment{
