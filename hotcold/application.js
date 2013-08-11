@@ -7,8 +7,7 @@ var restart = 0;
 
 
 
-$('#Guess').click(function getAnswer(computerAnswer, humanGuess){
-
+$('#Guess').click(function (){
 var difference=Math.abs(computerAnswer - humanGuess)
 
 if(humanGuess === computerAnswer){
