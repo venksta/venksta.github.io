@@ -55,7 +55,7 @@ body{
 
 /* buttons */
 
-.btn btn-danger{
+.btn-danger{
 	position: relative;
     color: rgba(255,255,255,1);
     text-decoration: none;
@@ -81,7 +81,7 @@ body{
 	transition: all .1s ease;
 }
 
-.btn btn-primary{
+.btn-primary{
 
   position: relative;
     color: rgba(102,255,51,1);
@@ -121,6 +121,6 @@ body{
 
 .response{
   font-size: 20px;
-  
+
 }
 
