@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+$("#guess").click(function){
+
 
 var answer = Math.floor(Math.random() *100);
 
@@ -34,7 +36,7 @@ else{
 
 }
 
-
+}
 
 
 });
