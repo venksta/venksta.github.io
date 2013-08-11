@@ -40,21 +40,16 @@ body{
 /* game area where the colors will be changing */
 
 #gamebox{
-  margin: 0 auto;
-  margin-top: 360px;
-  padding-top: 30px;
   text-align: center;
-  float: inline-block;
+  margin: 0 auto;
+  padding-top: 50px;
   width: 400px;
-  height: 400px;
-  border-radius: 20px;
-  background: linear-gradient(#FFFFFF, #EFECC9);
 }
 
 
 /* buttons */
 
-.input{
+.btn{
 	position: relative;
     color: rgba(255,255,255,1);
     text-decoration: none;
