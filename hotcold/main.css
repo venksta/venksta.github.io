@@ -18,6 +18,7 @@ body {
 
 #main-area{
   float: center;
+  width: 1000px;
   margin: 0 auto;
 }
 
