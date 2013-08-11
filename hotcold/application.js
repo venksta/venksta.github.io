@@ -9,7 +9,7 @@ var restart = 0;
 
 $('#Guess').click(function getAnswer(computerAnswer, humanGuess){
 
-var difference=Math.abs(correctAnswer - humanGuess)
+var difference=Math.abs(computerAnswer - humanGuess)
 
 if(humanGuess === computerAnswer){
 	$('#response').text("Wow, you actually guessed right!");
