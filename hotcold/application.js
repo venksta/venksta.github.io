@@ -1,4 +1,4 @@
-$(document).ready function(){
+$(document).ready(function(){
 
 
 var answer = Math.ceil(Math.random() *100);
