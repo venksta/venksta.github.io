@@ -5,15 +5,13 @@
 
 if "colder" darker blue background-color: #123EAB;
 if "cold" blue background-color: #3F92D2
-if "warmer" orange background - color: ;
+if "warmer" orange background -color: # ;
 if "correct" red background-color: #F60018;
 
 */
 
 
-/* Main Area of the Page with it's own background */
-
-body{
+body {
 	background-color: #F5D781;
 }
 
@@ -48,6 +46,7 @@ body{
 
 
 .userguess{
+  float: center;
   width: 100px;
   margin: 0 auto;
   padding-top: 20px;
