@@ -12,14 +12,12 @@ if "correct" red background-color: #F60018;
 */
 
 
-body {
-	background-color: #F5D781;
-}
-
 #main-area{
   float: center;
   width: 1000px;
+  height: 100%;
   margin: 0 auto;
+  background-color: #FFFF73;
 }
 
 

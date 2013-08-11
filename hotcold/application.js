@@ -1,35 +1,45 @@
 $(document).ready(function(){
 
-var correctAnswer = Math.floor(Math.random() *100);
-
+var computerAnswer = Math.floor(Math.random() *100);
+var humanGuess = 0;
+var restart = 0;
 //Guesses by the user:
 
-function getAnswer(computerAnswer, humanGuess){
+
+
+$('#Guess').click(function getAnswer(computerAnswer, humanGuess){
 
 var difference=Math.abs(correctAnswer - humanGuess)
 
 if(humanGuess === computerAnswer){
-	return "Wow, you actually guessed right!";
+	$('#response').text("Wow, you actually guessed right!");
 }
 
 else if(difference > 0 && difference <=10){
-	return "Hot damn!";
+	$('#response').text("Hot damn!");
 }
 
 else if(difference >=11 && difference <= 20){
-	return "Warming up!";
+	$('#response').text("Warming up!");
 }
 else if(difference >=21 && difference <= 30){
-	return "A little chilly";
+	$('#response').text("A little chilly");
 }
 
 else if(difference >=31){
-	return "It's getting cold!";
+	$('#response').text("Brrrr...It's getting cold!");
 }
 
 else{
-	return "Not even close!";
+	$('#response').text("Not even close!");
 }
+
+}
+
+$('#Reset').click(function)(){
+	computerAnswer = Math.floor(Math.random()*100);
+	restart = 0;
+	$('#main-area').css("background-color", "#FFFF73")
 
 }
 
