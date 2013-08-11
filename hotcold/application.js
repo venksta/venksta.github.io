@@ -43,7 +43,4 @@ $('#Reset').click(function)(){
 
 }
 
-}
-
-
 });
