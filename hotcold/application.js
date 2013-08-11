@@ -34,13 +34,13 @@ else{
 	$('#response').text("Not even close!");
 }
 
-}
+});
 
-$('#Reset').click(function)(){
+$('#Reset').click(function(){
 	computerAnswer = Math.floor(Math.random()*100);
 	restart = 0;
 	$('#main-area').css("background-color", "#FFFF73")
 
-}
+});
 
 });
