@@ -1,15 +1,12 @@
 $(document).ready(function(){
 
-$("#guess").click(function){
-
-
-var answer = Math.floor(Math.random() *100);
+var correctAnswer = Math.floor(Math.random() *100);
 
 //Guesses by the user:
 
 function getAnswer(computerAnswer, humanGuess){
 
-var difference=Math.abs(computerAnswer - humanGuess)
+var difference=Math.abs(correctAnswer - humanGuess)
 
 if(humanGuess === computerAnswer){
 	return "Wow, you actually guessed right!";
