@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 
-var answer = Math.ceil(Math.random() *100);
+var answer = Math.floor(Math.random() *100);
 
 //Guesses by the user:
 
