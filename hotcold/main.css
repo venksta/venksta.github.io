@@ -19,16 +19,30 @@ body{
 
 #main-area{
   float: center;
-  width: 900px;
   margin: 0 auto;
 }
 
 
+.introduction{
+  width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+
+.instruction{
+  width: 800px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 80px;
+}
 /* game area where the colors will be changing */
 
 #gamebox{
   margin: 0 auto;
   margin-top: 360px;
+  padding-top: 30px;
   text-align: center;
   float: inline-block;
   width: 400px;
