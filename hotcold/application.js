@@ -1,13 +1,20 @@
 $(document).ready(function(){
 
-var computerAnswer = Math.floor(Math.random() *100);
+var computerAnswer = Math.floor(Math.random() *101);
 var humanGuess = 0;
-var restart = 0;
 //Guesses by the user:
 
 
+$('#Reset').click(function(){
+	computerAnswer = Math.floor(Math.random()*100);
+	$('#main-area').css("background-color", "#FFFF73")
+
+});
+
 
 $('#Guess').click(function (){
+computerAnswer = Math.floor(Math.random()*101);
+humanGuess = 0;
 var difference=Math.abs(computerAnswer - humanGuess)
 
 if(humanGuess === computerAnswer){
@@ -30,16 +37,10 @@ else if(difference >=31){
 }
 
 else{
-	$('#response').text("Not even close!");
+	$('#response').text("Uhm...I thought I made it clear to guess between 1 and 100");
 }
 
 });
 
-$('#Reset').click(function(){
-	computerAnswer = Math.floor(Math.random()*100);
-	restart = 0;
-	$('#main-area').css("background-color", "#FFFF73")
-
-});
 
 });
