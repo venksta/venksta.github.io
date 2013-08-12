@@ -2,21 +2,21 @@ $(document).ready(function(){
 
 var computerAnswer = Math.floor(Math.random() *101);
 var humanGuess = 0;
-//Guesses by the user:
 
+
+//Reset the game:
 
 $('#Reset').click(function(){
 	computerAnswer = Math.floor(Math.random()*100);
-	$('#main-area').css("background-color", "#FFFF73")
+	$('#main-area').css("background-color", "#FFFF73");
 
 });
 
 
-$('#Guess').click(function (){
-computerAnswer = Math.floor(Math.random()*101);
-humanGuess = 0;
-var difference=Math.abs(computerAnswer - humanGuess)
+//Guesses by the user:
 
+$('#Guess').click(function (computerAnswer, humanGuess){
+var difference=Math.abs(computerAnswer - humanGuess)
 if(humanGuess === computerAnswer){
 	$('#response').text("Wow, you actually guessed right!");
 }
