@@ -1,0 +1,22 @@
+/* Navigation Bar*/
+
+nav {
+position: fixed;
+margin-bottom: 15px;
+background-color: #000;
+}
+
+.mainnav {
+display: inline;
+}
+
+.mainnav li {
+display: inline;
+}
+
+.mainnav a {
+
+}
+
+/*sign in/register inputs*/
+
